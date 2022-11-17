@@ -1,0 +1,71 @@
+body{
+    
+    padding: 0;
+    margin: 0 ;
+    background-color: black;
+}
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+    height: 80vh;
+    align-items:center;
+    padding:20px 60px;
+
+}
+.banner h1 {
+    color: #08d6d6;
+    font-size: 50px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+
+.banner .preco {
+    padding: 40px 0 15px;
+    margin: 0;
+    font-size: 30px;
+    
+}
+.banner .direita {
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* width: 500px; */
+}
+.banner .esquerda {
+    text-align:left;
+    
+    width: 600px;
+}
+.banner button {
+    background-color: #08d6d6;
+    height: 40px;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border: none;
+}
+.menu {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 10px 15px;
+    align-items: center;
+
+
+}
+.menu-items {
+    display: flex;
+    gap: 20px;
+}
+.menu-items img {
+    width: 26px;
+}
+.logo img {
+    height: 60px;
+
+
+}
